@@ -1,0 +1,40 @@
+| senderId    | receiverId | text             | seen  |
+| ----------- | ---------- | ---------------- | ----- |
+| 2 (Bob)     | 1 (Alice)  | "Hi!"            | false |
+| 2 (Bob)     | 1 (Alice)  | "Are you there?" | false |
+| 3 (Charlie) | 1 (Alice)  | "Hello"          | true  |
+| 3 (Charlie) | 1 (Alice)  | "Ping"           | false |
+
+FILTEREDUSERS = 
+    [
+        { _id: 2, name: "Bob" },
+        { _id: 3, name: "Charlie" }
+    ]
+
+For Bob:
+Messages where senderId: 2, receiverId: 1, seen: false
+
+✅ Found 2 → ["Hi!", "Are you there?"]
+
+For Charlie:
+Messages where senderId: 3, receiverId: 1, seen: false
+
+✅ Found 1 → ["Ping"]
+
+unseenMessages = {
+  "2": 2, // Bob
+  "3": 1  // Charlie
+}
+
+{
+  "success": true,
+  "users": [
+    { "_id": "2", "name": "Bob" },
+    { "_id": "3", "name": "Charlie" }
+  ],
+  "unseenMessages": {
+    "2": 2,
+    "3": 1
+  }
+}
+
