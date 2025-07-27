@@ -12,7 +12,10 @@ A real-time chat application built using **MERN stack** (MongoDB, Express, React
 - 📡 Socket.IO for live updates
 - 🗃️ Message history stored in MongoDB
 - 🧑‍🤝‍🧑 User list and chat selection
+- 🖼️ Media section to view shared images
+- 🔔 Unseen message count and notifications
 - 💻 Responsive UI (TailwindCss)
+
 
 ---
 
@@ -28,12 +31,16 @@ A real-time chat application built using **MERN stack** (MongoDB, Express, React
 ## 📸 Screenshots
 
 > _(Optional but highly recommended — add a few GIFs or images of the UI here)_
+<img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/c815fcdb-713d-4a7e-a855-eaac299924bd" />
 
 ---
 
-## 📦 Installation
+---
 
-### Prerequisites
+## 📚 Future Enhancements
 
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/) (local or MongoDB Atlas)
+- 👥 Group chat support
+- ✍️ Typing indicators
+- 🔍 Chat search
+- 🔔 Push notifications
+- 📎 File/image sharing
