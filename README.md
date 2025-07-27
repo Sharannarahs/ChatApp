@@ -30,7 +30,6 @@ A real-time chat application built using **MERN stack** (MongoDB, Express, React
 
 ## 📸 Screenshots
 
-> _(Optional but highly recommended — add a few GIFs or images of the UI here)_
 <img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/c815fcdb-713d-4a7e-a855-eaac299924bd" />
 
 ---
